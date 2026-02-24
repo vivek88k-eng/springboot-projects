@@ -20,6 +20,7 @@ public class TodoService {
     public List<Todo> getAllTodo(){
         return repository.findAll();
     }
+
     public Optional<Todo> getTodoById(Long id){
         return repository.findById(id);
     }
